@@ -12,14 +12,13 @@ config_version=5
 
 config/name="Pixel's Papercraft"
 run/main_scene="res://scenes/level_1_notebook_prison.tscn"
-config/features=PackedStringArray("4.2", "GL Compatibility")
+config/features=PackedStringArray("4.4", "GL Compatibility")
 config/icon="res://icon.svg"
 
 [display]
 
 window/size/viewport_width=1024
 window/size/viewport_height=600
-window/size/resizable=true
 
 [rendering]
 
