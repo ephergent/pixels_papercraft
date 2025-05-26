@@ -1,5 +1,5 @@
 # Pixel's Papercraft
 
-2D Godot engine platformer in the papercraft dimension
+2D Phaser engine platformer in the papercraft dimension
 
 

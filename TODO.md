@@ -1,8 +1,10 @@
 # Pixel's Papercraft - Game Development TODO
 
+https://phaser.io/download/release/v3.90.0
+
 ## Game Overview
 **Title:** Pixel's Papercraft  
-**Engine:** Godot 4.x (2D)  
+**Engine:** Phaser 3.90.0
 **Genre:** Platformer  
 **Art Style:** 8-bit pixel art drawn on graph paper aesthetic  
 **Story:** Pixel Paradox gets trapped in the Paper Dimension and must escape back to Prime Material
@@ -18,11 +20,16 @@
 
 ### Character Design
 - [ ] Design Pixel Paradox sprite (electric blue hair, neon green highlights)
+  - [ ] red jacket,black cargo pants, black chunky boots
 - [ ] Create A1 holographic projection sprites (minimal, geometric)
+  - [ ] Sleek black metallic espresso machine
 - [ ] Design Clive stapler sprite with personality animations
+  - [ ] Orange office stapler
 - [ ] Add "sketched on paper" effect to all character animations
+- [ ] 3d look in 2d drawing
 
 ### Environmental Art
+- [ ] 3d look in 2d drawing
 - [ ] Paper terrain tiles (folded, crumpled, torn edges)
 - [ ] Background layers with graph paper grid
 - [ ] Interactive paper elements (fans, origami, paper planes)
@@ -57,37 +64,42 @@
 - [ ] Teach basic movement and paper folding mechanics
 - [ ] Introduce A1's scanning ability
 - [ ] Boss: Giant pencil eraser trying to erase Pixel
+- [ ] soundtrack/01_Notebook_Prison_Blues.mp3
 
 ### Level 2: "Office Supply Chaos"
 - [ ] Navigate through scattered desk supplies
 - [ ] Introduce Clive's stapling ability
 - [ ] Paper airplane transportation sections
 - [ ] Boss: Sentient hole puncher creating dangerous gaps
+- [ ] soundtrack/02_Office_Supply_Shuffle.mp3
 
 ### Level 3: "The Origami Garden"
 - [ ] Complex folding puzzles with paper flowers/trees
 - [ ] Moving platforms made of folding paper
 - [ ] Wind mechanics affecting paper planes
 - [ ] Boss: Origami dragon that unfolds/refolds during fight
+- [ ] soundtrack/03_Origami_Garden_Waltz_Repris.mp3
 
 ### Level 4: "Corporate Memo Maze"
 - [ ] Navigate through Corporate Corp paperwork
 - [ ] References to DRM (Department of Reality Maintenance)
 - [ ] Shredded paper obstacles and reconstruction puzzles
 - [ ] Boss: Filing cabinet monster spitting out forms
+- [ ] soundtrack/04_Corporate_Memo_Madness.mp3
 
 ### Level 5: "The Reality Rip Repair"
 - [ ] Final escape sequence
 - [ ] All mechanics combined in challenging platforming
 - [ ] Repair the dimensional tear using paper manipulation
 - [ ] Boss: The Paper Dimension itself trying to keep Pixel trapped
+- [ ] soundtrack/05_Reality_Rip_Escape.mp3
 
 ## Programming Tasks
 
 ### Core Systems
-- [ ] Set up Godot 2D project structure
+- [ ] Set up Phaser 2D project structure
 - [ ] Implement player controller with tight platformer feel
-- [ ] Create paper folding system (AnimationPlayer + CollisionShape2D changes)
+- [ ] Create paper folding system
 - [ ] Build interaction system for paper manipulation
 - [ ] Program camera follow with screen shake for paper effects
 
@@ -105,6 +117,7 @@
 - [ ] Add paper sound effects (rustling, tearing, folding)
 - [ ] Create pause menu that looks like a notebook page
 
+
 ## Audio Design
 
 ### Sound Effects
@@ -119,6 +132,8 @@
 - [ ] Each level gets unique paper-themed instruments
 - [ ] Boss battle music with increased intensity
 - [ ] Victory theme for returning to Prime Material
+- [ ] Player start screen music soundtrack/00_Stuck_Between_Pages.mp3
+- [ ] Player end screen music soundtrack/06_Origami_Garden_Waltz-BONUS-01.mp3
 
 ## Story Integration
 
