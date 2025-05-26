@@ -1,0 +1,44 @@
+[gd_scene load_steps=5 format=3 uid="uid://b5w5h5fkvp00x"]
+
+[ext_resource type="Texture2D" uid="uid://cvhgsg7puuiy1" path="res://assets/art/graph_paper_background.png" id="1_abcde"]
+[ext_resource type="Texture2D" uid="uid://dj1q2n3pbv82x" path="res://assets/art/pixel_paradox_placeholder.png" id="2_fghij"]
+[ext_resource type="PackedScene" uid="uid://d1e2f3g4h5i6" path="res://scenes/Player.tscn" id="3_player"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_platform"]
+size = Vector2(200, 20)
+
+[node name="Level1NotebookPrison" type="Node2D"]
+
+[node name="GraphPaperBackground" type="TextureRect" parent="."]
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+texture = ExtResource("1_abcde")
+expand_mode = 1 # Tile mode to ensure it covers if viewport is larger than texture
+
+[node name="Platform1" type="StaticBody2D" parent="."]
+position = Vector2(200, 500)
+
+[node name="Sprite2D" type="Sprite2D" parent="Platform1"]
+modulate = Color(0.3, 0.3, 0.3, 1)
+scale = Vector2(6.25, 0.625) # (32*6.25 = 200, 32*0.625 = 20)
+texture = ExtResource("2_fghij")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Platform1"]
+shape = SubResource("RectangleShape2D_platform")
+
+[node name="Platform2" type="StaticBody2D" parent="."]
+position = Vector2(500, 400)
+
+[node name="Sprite2D" type="Sprite2D" parent="Platform2"]
+modulate = Color(0.3, 0.3, 0.3, 1)
+scale = Vector2(6.25, 0.625) # (32*6.25 = 200, 32*0.625 = 20)
+texture = ExtResource("2_fghij")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Platform2"]
+shape = SubResource("RectangleShape2D_platform")
+
+[node name="Player" parent="." instance=ExtResource("3_player")]
+position = Vector2(200, 450)
