@@ -1,10 +1,10 @@
 # Pixel's Papercraft - Game Development TODO
 
-https://phaser.io/download/release/v3.90.0
+https://www.pygame.org/docs/
 
 ## Game Overview
 **Title:** Pixel's Papercraft  
-**Engine:** Phaser 3.90.0
+**Engine:** PyGame
 **Genre:** Platformer  
 **Art Style:** 8-bit pixel art drawn on graph paper aesthetic  
 **Story:** Pixel Paradox gets trapped in the Paper Dimension and must escape back to Prime Material
@@ -12,9 +12,9 @@ https://phaser.io/download/release/v3.90.0
 ## Art & Visual Design
 
 ### Core Aesthetic
-- [x] Create graph paper background texture template
-- [x] Design pixel art sprites with visible graph paper grid underneath
-- [x] Implement "sketched" line effect for all sprites
+- [ ] Create graph paper background texture template
+- [ ] Design pixel art sprites with visible graph paper grid underneath
+- [ ] Implement "sketched" line effect for all sprites
 - [ ] Add paper texture overlay to entire game
 - [ ] Create color palette: pencil gray, eraser pink, pen blue, highlighter yellow
 
@@ -97,8 +97,8 @@ https://phaser.io/download/release/v3.90.0
 ## Programming Tasks
 
 ### Core Systems
-- [x] Set up Phaser 2D project structure
-- [x] Implement player controller with tight platformer feel
+- [ ] Set up Phaser 2D project structure
+- [ ] Implement player controller with tight platformer feel
 - [ ] Create paper folding system
 - [ ] Build interaction system for paper manipulation
 - [ ] Program camera follow with screen shake for paper effects
