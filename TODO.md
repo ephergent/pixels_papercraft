@@ -12,9 +12,9 @@ https://phaser.io/download/release/v3.90.0
 ## Art & Visual Design
 
 ### Core Aesthetic
-- [ ] Create graph paper background texture template
-- [ ] Design pixel art sprites with visible graph paper grid underneath
-- [ ] Implement "sketched" line effect for all sprites
+- [x] Create graph paper background texture template
+- [x] Design pixel art sprites with visible graph paper grid underneath
+- [x] Implement "sketched" line effect for all sprites
 - [ ] Add paper texture overlay to entire game
 - [ ] Create color palette: pencil gray, eraser pink, pen blue, highlighter yellow
 
@@ -97,8 +97,8 @@ https://phaser.io/download/release/v3.90.0
 ## Programming Tasks
 
 ### Core Systems
-- [ ] Set up Phaser 2D project structure
-- [ ] Implement player controller with tight platformer feel
+- [x] Set up Phaser 2D project structure
+- [x] Implement player controller with tight platformer feel
 - [ ] Create paper folding system
 - [ ] Build interaction system for paper manipulation
 - [ ] Program camera follow with screen shake for paper effects
